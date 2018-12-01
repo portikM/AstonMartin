@@ -4,7 +4,7 @@ Is a web app about Aston Martin DB9. The app gives and opportunity to view a car
 ## Built With
 
 * [Cinema 4D](https://www.maxon.net/en/products/cinema-4d/overview/) - 3D modeling;
-* [Vue.js](https://vuejs.org/) - JS framework;
+* [Vue.js](https://vuejs.org/) - JS framework.
 
 ## Authors
 
