@@ -1,0 +1,8 @@
+<svg id="Rear_Lights" data-name="Rear Lights" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 317.14 259.7">
+  <title>Rear_Lights</title>
+  <g id="rearLights">
+    <path id="center" d="M245,274.33a94.11,94.11,0,1,1,94.11-94.1A94.2,94.2,0,0,1,245,274.33Zm0-143.75a49.65,49.65,0,1,0,49.65,49.65A49.7,49.7,0,0,0,245,130.58Z" transform="translate(-86.45 -50.11)"/>
+    <path id="right" d="M336.43,309.81,310.78,273.5a114.08,114.08,0,0,0,0-186.54l25.65-36.31a158.54,158.54,0,0,1,0,259.16Z" transform="translate(-86.45 -50.11)"/>
+    <path id="left" d="M153.61,309.81a158.53,158.53,0,0,1,.77-259.7l25.44,36.46a114.08,114.08,0,0,0-.56,186.93Z" transform="translate(-86.45 -50.11)"/>
+  </g>
+</svg>
