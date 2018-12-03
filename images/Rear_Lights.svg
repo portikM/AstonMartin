@@ -1,8 +1,19 @@
-<svg id="Rear_Lights" data-name="Rear Lights" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 317.14 259.7">
-  <title>Rear_Lights</title>
-  <g id="rearLights">
-    <path id="center" d="M245,274.33a94.11,94.11,0,1,1,94.11-94.1A94.2,94.2,0,0,1,245,274.33Zm0-143.75a49.65,49.65,0,1,0,49.65,49.65A49.7,49.7,0,0,0,245,130.58Z" transform="translate(-86.45 -50.11)"/>
-    <path id="right" d="M336.43,309.81,310.78,273.5a114.08,114.08,0,0,0,0-186.54l25.65-36.31a158.54,158.54,0,0,1,0,259.16Z" transform="translate(-86.45 -50.11)"/>
-    <path id="left" d="M153.61,309.81a158.53,158.53,0,0,1,.77-259.7l25.44,36.46a114.08,114.08,0,0,0-.56,186.93Z" transform="translate(-86.45 -50.11)"/>
-  </g>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 22.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Rear_Lights" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+	 y="0px" viewBox="0 0 317.1 259.7" style="enable-background:new 0 0 317.1 259.7;" xml:space="preserve">
+<style type="text/css">
+	.st0{opacity:0.5;}
+	.st1{fill:#004F32;}
+</style>
+<title>Rear_Lights</title>
+<g id="rearLights" class="st0">
+	<path id="center" class="st1" d="M158.6,224.2c-52,0-94.1-42.1-94.1-94.1S106.6,36,158.5,36s94.1,42.1,94.1,94.1c0,0,0,0,0,0
+		C252.6,182.1,210.5,224.2,158.6,224.2z M158.6,80.5c-27.4,0-49.7,22.2-49.7,49.6s22.2,49.7,49.7,49.7s49.6-22.2,49.6-49.7l0,0
+		C208.2,102.7,186,80.5,158.6,80.5L158.6,80.5z"/>
+	<path id="right" class="st1" d="M250,259.7l-25.6-36.3c51.5-36.3,63.9-107.4,27.6-159c-7.5-10.7-16.9-20-27.6-27.6L250,0.5
+		c71.6,50.4,88.7,149.4,38.2,220.9C277.8,236.3,264.8,249.2,250,259.7z"/>
+	<path id="left" class="st1" d="M67.2,259.7C-4.4,209.3-21.5,110.4,28.9,38.8C39.6,23.7,52.8,10.6,67.9,0l25.4,36.5
+		c-51.7,36-64.5,107.1-28.5,158.8c7.6,10.9,17.1,20.5,28,28.1L67.2,259.7z"/>
+</g>
 </svg>
