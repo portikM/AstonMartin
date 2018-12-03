@@ -14,10 +14,29 @@
 	<!-- vue.js development version, includes helpful console warnings -->
 	<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
 
+	<!-- font awesome -->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+
 </head>
 <body>
 
-	<!-- write your html beyond this point -->
+	<section id="container">
+
+		<div v-on:click="navBar" id="hamburgerMenu">
+			<i class="fas fa-bars"></i>
+		</div>
+
+		<div id="menu">
+			<ul>
+				<li>HEAD LIGHTS</li>
+				<li>ENGINE</li>
+				<li>BREAKS</li>
+				<li>SUSPENSION</li>
+				<li>REAR LIGHTS</li>
+			</ul>
+		</div>
+
+	</section>
 
 	<script src="js/main.js"></script>
 	
