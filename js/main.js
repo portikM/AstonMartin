@@ -1,29 +1,46 @@
-
-
-//functions
-
-function windowSizeDependant(){
-    var viewPortHeight = Math.max(document.documentElement.clientHeight, window.innerHeight);
-    var viewPortWidth = Math.max(document.documentElement.clientWidth, window.innerWidth);
-    
-    //setting the height of container = viewport height
-    document.querySelector('#container').style.height = viewPortHeight + "px";
-}
-
-windowSizeDependant();
-
-//event listeners
-
-window.addEventListener("resize", windowSizeDependant, false);
-
-// Vue.js
-
-const vm = new Vue({
-    el: "#container",
-
-    methods: {
-        navBar(){
-            document.querySelector('#menu').classList.toggle("open");
-        }
-    }
+let video = document.querySelector('video');
+video.addEventListener('click', function(){
+    console.log(video.currentTime);
 });
+document.querySelector('#btn-RL')
+    .addEventListener('click', function(){
+        video.pause();
+        video.currentTime = 0.5;
+        video.play();
+        document.body.scrollTop = 0;
+    });
+document.querySelector('#btn-BR')
+    .addEventListener('click', function(){
+        video.pause();
+        video.currentTime = 25;
+        video.play();
+        document.body.scrollTop = 0;
+    });
+document.querySelector('#btn-SP')
+    .addEventListener('click', function(){
+        video.pause();
+        video.currentTime = 22;
+        video.play();
+        document.body.scrollTop = 0;
+    });
+document.querySelector('#btn-EN')
+    .addEventListener('click', function(){
+        video.pause();
+        video.currentTime = 27;
+        video.play();
+        document.body.scrollTop = 0;
+    });
+document.querySelector('#btn-RL')
+    .addEventListener('click', function(){
+        video.pause();
+        video.currentTime = 0.5;
+        video.play();
+        document.body.scrollTop = 0;
+    });
+document.querySelector('#btn-HL')
+    .addEventListener('click', function(){
+        video.pause();
+        video.currentTime = 29;
+        video.play();
+        document.body.scrollTop = 0;
+    });

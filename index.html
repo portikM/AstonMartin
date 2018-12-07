@@ -11,9 +11,6 @@
 	<link rel="stylesheet" type="text/css" href="css/main.css">
 	<link href="https://fonts.googleapis.com/css?family=Alegreya+Sans:400,700" rel="stylesheet">
 
-	<!-- vue.js development version, includes helpful console warnings -->
-	<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
-
 	<!-- font awesome -->
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
 
@@ -21,21 +18,19 @@
 <body>
 
 	<section id="container">
-
-		<div v-on:click="navBar" id="hamburgerMenu">
-			<i class="fas fa-bars"></i>
+		<h3 class="hidden">Main Container</h3>
+		<div id="video">
+			<video id="video" loop muted autoplay>
+				<source src="video/car.mp4" type="video/mp4">
+			</video>
 		</div>
-
-		<div id="menu">
-			<ul>
-				<li>HEAD LIGHTS</li>
-				<li>ENGINE</li>
-				<li>BREAKS</li>
-				<li>SUSPENSION</li>
-				<li>REAR LIGHTS</li>
-			</ul>
-		</div>
-
+		<ul>
+			<li id="btn-RL"><img src="images/Rear_Lights.svg" alt="icon"> Rear Lights</li>
+			<li id="btn-BR"><img src="images/Breaks.svg" alt="icon"> Breaks</li>
+			<li id="btn-EN"><img src="images/Engine.svg" alt="icon"> Engine</li>
+			<li id="btn-SP"><img src="images/Suspension.svg" alt="icon"> Suspension</li>
+			<li id="btn-HL"><img src="images/Head_Lights.svg" alt="icon"> Head lights</li>
+		</ul>
 	</section>
 
 	<script src="js/main.js"></script>

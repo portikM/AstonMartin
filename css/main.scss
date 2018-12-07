@@ -7,79 +7,79 @@
 
 body{
     overflow-x: hidden;
+    overflow-y: hidden;
+    font-family: sans-serif;
 }
-
 #container{
-    display: flex;
-    font-family: $font;
-    font-size: 2em;
-    color: $white;
-    display: flex;
-    justify-content: flex-end;
-    #hamburgerMenu{
-        height: max-content;
-        padding: 20px 20px 0 0;
-        display: flex;
-        flex-direction: row;
-        justify-content: flex-end;
-        i{
-            color: $primary;
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    #video{
+        width: 100%;
+        height: 100vh;
+        video{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
         }
     }
-    #menu{
+    ul{
         position: absolute;
-        right: -100%;
-        height: 100%;
-        background-color: rgba(27,27,27,0.5);
         display: flex;
         flex-direction: column;
-        justify-content: center;
-        justify-items: center;
+        width: 400px;
+        height: 100vh;
+        top: 0;
+        right: 0;
+        li{
+            cursor: pointer;
+            margin: 10px;
+            position: relative;
+            height: 100%;
+            background-color: rgba(0, 0, 0, .5);
+            vertical-align: middle;
+            display: flex;
+            align-items: center;
+            font-size: 30px;
+            color: #ffffff;
+            img{
+                width: 70px;
+                padding: 0 1em;
+            }
+        }
+    }
+}
+
+@media all and (max-width: 720px){
+    body{
+        overflow-y: auto;
+        background-color: #222222;
+    }
+    #container{
+        #video{
+            width: 100%;
+            height: auto;
+            video{
+                width: 100%;
+                height: auto;
+                object-fit: contain;
+            }
+        }
         ul{
-            padding: 0 40px 0 45px;
-            text-align: center;
+            width: 100%;
+            height: auto;
+            top: 56.25vw;
             li{
-                cursor: pointer;
-                margin: 10px 0;
-                padding: 30px 0;
-                background-position: center;
-                background-size: contain;
-                background-repeat: no-repeat;
-                &:nth-child(1){
-                    background-image: url('../images/Head_Lights.svg');
-                }
-                &:nth-child(2){
-                    background-image: url('../images/Engine.svg');
-                }
-                &:nth-child(3){
-                    background-image: url('../images/Breaks.svg');
-                }
-                &:nth-child(4){
-                    background-image: url('../images/Suspension.svg');
-                }
-                &:nth-child(5){
-                    background-image: url('../images/Rear_Lights.svg');
+                padding: 20px 0;
+                img{
+                    height: 70px;
+                    padding: 0 1em;
                 }
             }
         }
     }
-    .open{
-        position: static !important;
-    }
-}
 
-@media all and (min-width: 720px){
-    #container{
-        #hamburgerMenu{
-            display: none !important;
-        }
-        #menu{
-            right: auto !important;
-        }
-    }
 }
-
-// Common styles
 
 .hidden{
     display: none;    
